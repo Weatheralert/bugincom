@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML & CSS практика</title>
+
+	<!-- Bootstrap reboot (для сброса стилей) -->
+	<link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+
+	<!-- Bootstrap сетка -->
+	<link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+
+	<!-- Шрифты с Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Стили сайта -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<!-- Шапка position: sticky -->
+	
+<div class="navbar">
+		<div class="image">
+			<a href="#"><img src="images/name.png" alt=""></a>
+		</div>
+		<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		<div class="navbar-menu">
+			<ul>
+			<li class="padding"><a href="#">О нас</a></li>
+			<li class="padding"><a href="#">Галерея</a></li>
+			<li class="padding"><a href="#">Аренда</a></li>
+			<li><a href="#">Контакты</a></li>
+			</ul>
+		</div>
+		<div class="number">
+			<ul >
+				<li><a href="#">+375 44 585-77-77 <img src="images/viber.png" alt="" class="viber"></a></li>
+				<li><a href="#">+375 29 805-77-77</a></li>
+			</ul>
+		</div>
+</div>
+
+<ul id="slide-out" class="sidenav">
+	<li><div class="user-view">
+	</div></li>
+	<li><a class="waves-effect" href="#!"><i class="material-icons">contact_mail</i>О нас</a></li>
+	<li><a class="waves-effect" href="#!"><i class="material-icons">perm_media</i>Галерея</a></li>
+	<li><a class="waves-effect" href="#!"><i class="material-icons">payment</i>Аренда</a></li>
+	<li><a class="waves-effect" href="#!"><i class="material-icons">call_end</i>Контакты</a></li>
+	<li><div class="divider"></div></li>
+	<li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть</a></li>
+  </ul>
+ 
+
+	<!-- Площадки для бизнеса + "получить предложение" до 8 элементов -->
+<div class="first-group">
+		<div class="picture">
+			<img src="images/title.webp" alt="">
+		</div>
+		<dvi class="picture-mb">
+			<img src="images/title_mb.jpg" alt="">
+		</dvi>
+		<div class="content">
+			<p class="title" id="shadow">ООО "БУГИНКОМ" ПРЕДЛАГАЕТ ВАМ РАССМОТРЕТЬ</p>
+			<p class="name" id="shadow">ВАКАНТНЫЕ ПЛОЩАДИ<br>ДЛЯ ВАШЕГО БИЗНЕСА</p>
+			<p class="central-text" id="shadow">Всем новым Арендаторам — наши золотые фирменные скрепки — в подарок!</p>
+			<p class="button-text"><a href="#">Получить предложение</a></p>
+		</div>
+		<div class="item_bur">
+			<div class="item">
+				<i class="material-icons">location_on</i>
+				<p>Отличное<br>расположение</p>
+			</div>
+			<div class="item">
+				<i class="material-icons">forward</i>
+				<p>Круглосуточный<br>доступ 24/7</p>
+			</div>
+			<div class="item">
+				<i class="material-icons">build</i>
+				<p>Передовые<br>инженерные системы</p>
+			</div>
+			<div class="item">
+				<i class="material-icons">camera_alt</i>
+				<p>Системы видеонаблюдения<br>и контроля доступа</p>
+			</div>
+			<div class="item">
+				<i class="material-icons">drive_eta</i>
+				<p>Удобные просторные<br>парковки</p>
+			</div>
+		</div>
+	<div class="domus-city-up">
+		<div class="piece">
+			<p class="title">БИЗНЕС-ЦЕНТР</p>
+			<p class="name">"БРЕСТ ДЕЛОВОЙ"</p>
+			<p class="central-text">Организация офиса Вашей компании в Бизнес-центре <br> 
+				«БРЕСТ ДЕЛОВОЙ» (класс В+) </p>
+			<p class="button-text"><a href="#">Получить предложение</a></p>
+		</div>
+		<div class="piece">
+			<img src="images/delovoy.webp" alt="">
+		</div>
+	</div>
+	<div class="domus-city-down">
+		<div class="piece">
+			<img src="images/domus-city.webp" alt="">
+		</div>
+		<div class="piece">
+			<p class="title">ОФИС-ЦЕНТР</p>
+			<p class="name">"DOMUS-CITY"</p>
+			<p class="central-text">Организация торгового представительства Вашей<br> компании в Офис-центре «DOMUS CITY» (класс В)</p>
+			<p class="button-text"><a href="#">Получить предложение</a></p>
+		</div>
+	</div>
+	<div class="domus-city-down-mb">
+		<div class="piece">
+			<p class="title">ОФИС-ЦЕНТР</p>
+			<p class="name">"DOMUS-CITY"</p>
+			<p class="central-text">Организация торгового представительства Вашей<br> компании в Офис-центре «DOMUS CITY» (класс В)</p>
+			<p class="button-text"><a href="#">Получить предложение</a></p>
+		</div>
+		<div class="piece">
+			<img src="images/domus-city.webp" alt="">
+		</div>
+	</div>
+
+</div>
+
+	<!-- Преимущества через vm -->
+<div class="advantages">
+		<p>ПРЕИМУЩЕСТВА НАШИХ ЦЕНТРОВ</p>
+</div>
+
+	<!-- Восемь пунктов -->
+	<div class="eight-points">
+		<div class="item-left">
+			<i class="material-icons">location_on</i>
+			<p>Отличное расположение<br><font class="under-word">На ключевой транспортной артерии <br>
+				города Бреста</font></p>
+		</div>
+		<div class="item-right">
+			<i class="material-icons">phone</i>
+			<p>Оптоволоконные сети<br><font class="under-word">Возможность подключения нескольких<br> провайдеров</font></p>
+		</div>
+		<div class="item-left">
+			<i class="material-icons">build</i>
+			<p>Передовые инженерные системы<br><font class="under-word">Система кондиционирования и<br> вентиляции с подогревом и охлаждением<br>воздуха. Автономная котельная</font></p>
+		</div>
+		<div class="item-right">
+			<i class="material-icons">network_wifi</i>
+			<p>Высокотехнологичные системы<br> пожарной безопасности<br><font class="under-word">Обеспечивают непрерывный контроль<br>и мониторинг всей площади</font></p>
+		</div>
+		<div class="item-left">
+			<i class="material-icons">business</i>
+			<p>Лифты<br><font class="under-word">Высокоскоростные лифты KONE</font></p>
+		</div>
+		<div class="item-right">
+			<i class="material-icons">exposure</i>
+			<p>Электроснабжение<br><font class="under-word">Независимый источник электроснабжения<br> обеспечивает первую категорию<br> надежности</font></p>
+		</div>
+		<div class="item-left">
+			<i class="material-icons">drive_eta</i>
+			<p>Парковка<br><font class="under-word">Просторные наземные парковки<br> вокруг зданий</font></p>
+		</div>
+		<div class="item-right">
+			<i class="material-icons">location_city</i>
+			<p>Инфраструктура<br><font class="under-word">Автомойка, фитнес-центр, гипермаркет,<br> точки общепита, банки</font></p>
+		</div>
+	</div>
+	<!-- Простро фотка -->
+<div class="photo">
+	<img src="images/photo.webp" alt="">
+</div>
+	<!-- Офисы площадью... -->
+<div class="office">
+	<p>ОФИСЫ ПЛОЩАДЬЮ ОТ 20 ДО 1000 М2</p>
+</div>
+	<!-- Матрица из фото и видео -->
+<div class="matrix">
+	<img src="images/matrix1.webp" alt="">
+	<img src="images/matrix2.webp" alt="">
+	<img src="images/matrix3.webp" alt="">
+	<img src="images/matrix4.webp" alt="">
+	<img src="images/matrix5.webp" alt="">
+	<img src="images/matrix6.webp" alt="">
+	<video src="https://cdn.pixabay.com/video/2015/10/16/1046-142621379_large.mp4" width="100%" height="100%" controls class="video-1"></video>
+	<video src="https://cdn.pixabay.com/video/2015/10/16/1046-142621379_large.mp4" width="100%" height="100%" controls class="video-2"></video>
+	<video src="https://cdn.pixabay.com/video/2015/10/16/1046-142621379_large.mp4" width="100%" height="100%" controls class="video-3"></video>
+</div>
+	<!-- Просто текст -->
+<div class="text">
+	<p>Данные объекты коммерческой недвижимости расположены в деловом квартале г. Бреста по улице Московской, 208, в непосредственной близости к гипермаркету «Корона», обладают развитой инфраструктурой и соответствуют высоким стандартам офисных помещений.<br><br>
+		При внутренней отделке помещений использованы только высококачественные материалы. Здания отличает современное техническое оснащение: система вентиляции с рекуперацией тепла, мультизональная система кондиционирования, система видеонаблюдения и контроля доступа,
+		адресная система пожарной сигнализации, цифровая телефония, высокоскоростной интернет, мини-АТС. <br><br> 
+		Эксплуатация зданий осуществляется управляющей компанией ООО «БУГИНКОМ». Специалисты компании обеспечивают
+		максимально комфортные условия для деятельности арендаторов, берут на себя обязательства по обслуживанию инженерных сетей, а также предоставляют множество сопутствующих услуг, в т.ч. клининг.</p>
+</div>
+	<!-- Блок аренды -->
+<div class="rent">
+    <h1 class="title">ПРЕДЛАГАЕМ АРЕНДУ ПЛОЩАДЕЙ<br>НА ОЧЕНЬ ВЫГОДНЫХ УСЛОВИЯХ!</h1>
+    <div class="image-row">
+        <div class="item">
+            <img src="images/rent1.webp" alt="">
+            <h3>ОФИС</h3>
+			<h2>В БИЗНЕС-ЦЕНТРЕ "БРЕСТ ДЕЛОВОЙ"</h2>
+        </div>
+         <div class="item">
+            <img src="images/rent2.webp" alt="">
+             <h3>ТОРГОВАЯ ПЛОЩАДЬ</h3>
+			 <h2>В ОФИС-ЦЕНТРЕ "DOMUS CITY"</h2>
+         </div>
+    </div>
+    <p class="footer-text"> <a href="#">Получить предложение</a></p>
+</div>
+	<!-- О компании -->
+<div class="company">
+	<p>О КОМПАНИИ "БУГИНКОМ"</p>
+</div>
+
+<div class="company-info">
+	<div class="left">
+		<p class="start-text">ООО «БУГИНКОМ» − девелоперская компания, специализирующаяся на сегменте коммерческой недвижимости, контролирует все этапы проекта от разработки концепции до последующего управления созданным объектом.</p>
+		<p class="center-text">Общий объем девелоперских проектов «БУГИНКОМ» составляет 30 тыс. м2: </p>
+		<div class="houses">
+			<div class="item">
+				<img src="images/about_item1.jpg" alt="">
+				<span>бизнес-центр «Брест<br>Деловой» (6,2 тыс. м2)</span>
+			</div>
+			<div class="item">
+				<img src="images/about_item2.jpg" alt="">
+				<span>многофункциональный центр<br>(5,5 тыс. м2)</span>
+			</div>
+			<div class="item">
+				<img src="images/about_item3.jpg" alt="">
+				<span>офис-центр «Domus City» (6,4<br>тыс. м2)</span>
+			</div>
+			<div class="item">
+				<img src="images/about_item4.jpg" alt="">
+				<span>торгово-логистический комплекс<br>(11,1 тыс. м2) </span>
+			</div>
+		</div>
+	</div>
+	<div class="right">
+		<img src="images/about.webp" alt="">
+	</div>
+</div>
+
+<div class="company-info-mb">
+	<img src="https://s3-alpha-sig.figma.com/img/c8ad/fdf7/3eeb007c880235f089554272ff921f02?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ktH31pGpIkMxeAmJLISnv~9u0126lF5eD-AbCGjToxBy72jOYzBNCgsDfCwaKMasB-OcHPQvb0vEaPH859jbwDlC4Iq7aS55T95E7xsDDiemJyN3JB4H-f2ht3QzDTw0Ix-Q2vav3JOQMTcUdUpbGp9QaZg-60ltLgKud7uH5nHbgSWskZhDVlRZRGdcT-ZC1fXbcV3VI-VQdWvStJk1~1GlK1D5JZMY2S1vzPvDoiYhctPs32q9NIKZJFI4U-mNMjQgU5PL7gTdwoXAtbr~dpoaBE8bzVZ-2-kiVaVfqePnMEXPZz5soOBXnWfpkuOExMBLU3gCazDByuDrsayadA__" alt=" ">
+	<p>ООО «БУГИНКОМ» − девелоперская компания, специализирующаяся на сегменте коммерческой недвижимости, контролирует все этапы проекта от разработки концепции до последующего управления созданным объектом.<br>
+		Общий объем девелоперских проектов «БУГИНКОМ» составляет 30 тыс. м2: бизнес-центр «Брест Деловой» (6,2 тыс. м2), офис-центр «Domus City» (6,4 тыс. м2), многофункциональный центр (5,5 тыс. м2), торгово-логистический комплекс (11,1 тыс. м2) (ЗДЕСЬ МОЖНО В РЯД ЗНАЧКИ ОБЪЕКТОВ РАЗМЕСТИТЬ, Я В ССЫЛКЕ ВЫШЕ ИХ ВЫСЫЛАЛА).<br>
+		Эксплуатация зданий осуществляется управляющей компанией ООО «БУГИНКОМ». Специалисты компании обеспечивают комфортные условия для деятельности арендаторов, берут на себя обязательства по обслуживанию инженерных сетей, а также предоставляют множество сопутствующих услуг.</p>
+</div>
+	<!-- Пирамида из фото -->
+<div class="pyramid-up">
+	<div class="item">
+		<img src="images/pyr1.jpg" alt="">
+	</div>
+	<div class="item">
+		<img src="images/pyr2.webp" alt="">
+	</div>
+</div>
+<div class="pyramid-down">
+	<div class="item">
+		<img src="images/pyr3.jpg" alt="">
+	</div>
+	<div class="item">
+		<img src="images/pyr4.jpg" alt="">
+	</div>
+	<div class="item">
+		<img src="images/pyr5.webp" alt="">
+	</div>
+</div>
+
+<div class="pyramid-mb">
+	<img src="images/pyr1.jpg" alt="">
+	<img src="images/pyr2.webp" alt="">
+	<img src="images/pyr3.jpg" alt="">
+	<img src="images/pyr4.jpg" alt="">
+	<img src="images/pyr5.webp" alt="">
+</div>
+	<!-- Контакты -->
+	<div class="contacts">
+		<p>НАШИ КОНТАКТЫ</p>
+	</div>
+
+	<div class="contact-info">
+		<div class="top-row">
+			<div class="image-item">
+				<i class="material-icons">location_on</i>
+				<p>г. Брест, ул. Московская,<br>208-9</p>
+			</div>
+			<div class="image-item">
+				<i class="material-icons">phone</i>
+				<p>
+					+375 44 585-77-77 <br>
+					+375 29 805-77-77
+				</p>
+			</div>
+		</div>
+		<div class="bottom-row">
+			<div class="text-item">
+				<p>marketing@bugincom.by</p>
+			</div>
+			<div class="text-item">
+				<p>+375 162 27-29-27</p>
+			</div>
+			<div class="text-item">
+				<img src="images/instagram.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- Местоположение -->
+<div class="map">
+	<img src="images/map.png" alt="">
+</div>
+	<!-- Подвал -->
+<footer class="footer">
+	<div class="item">© 2021 ООО «БУГИНКОМ». Все права защищены</div>
+	<div class="item">Создание и продвижение сайтов - InternetSozdateli</div>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</footer>
+</body>
+</html>
